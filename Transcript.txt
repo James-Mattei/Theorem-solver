@@ -1,0 +1,622 @@
+Beggars Proof:
+
+Formula is: (cond (not hf )w )
+Formula is: (cond (not w )(not brd ))
+Formula is: (cond (not (and brd (not w )))hf )
+Formula is: (cond (not (or (not hf )(not brd )))(not brch ))
+Formula is: (brd)
+Formula is: (not brch )
+Printing Master Clause list:
+{hf,w}
+{w,(not brd)}
+{brd,hf}
+{(not w),hf}
+{(not hf),(not brd),(not brch)}
+{brd}
+{brch}
+Adding new Resolvent: {hf,w}
+Adding new Resolvent: {hf}
+Adding new Resolvent: {hf,(not brd)}
+Adding new Resolvent: {(not brd),(not brch),w}
+Adding new Resolvent: {(not brd),(not brch),brd}
+Adding new Resolvent: {(not brd),(not brch),(not w)}
+Adding new Resolvent: {w}
+Adding new Resolvent: {(not hf),(not brch)}
+Adding new Resolvent: {(not hf),(not brd)}
+Adding new Resolvent: {hf}
+Adding new Resolvent: {w,(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {hf}
+Adding new Resolvent: {(not brch),w,hf}
+Adding new Resolvent: {(not brd),(not brch),hf}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brd),w}
+Adding new Resolvent: {(not brd),(not brch),w}
+Adding new Resolvent: {(not brch),brd,hf}
+Adding new Resolvent: {(not brd),(not brch),(not hf)}
+Adding new Resolvent: {(not brch),brd}
+Adding new Resolvent: {(not brd),brd}
+Adding new Resolvent: {(not brd),(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch),w}
+Adding new Resolvent: {(not brd),(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),(not w),hf}
+Adding new Resolvent: {(not brch),(not w)}
+Adding new Resolvent: {(not brd),(not w)}
+Adding new Resolvent: {(not brd),(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),(not w),(not brd)}
+Adding new Resolvent: {hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch),brd}
+Adding new Resolvent: {(not brch),(not w)}
+Adding new Resolvent: {(not hf)}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brd),w}
+Adding new Resolvent: {(not brd),brd}
+Adding new Resolvent: {(not brd),(not w)}
+Adding new Resolvent: {(not hf)}
+Adding new Resolvent: {(not brd),w}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not hf),(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {w,(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch),hf}
+Adding new Resolvent: {w,(not brch)}
+Adding new Resolvent: {w,(not brd)}
+Adding new Resolvent: {w,(not brch),(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),w,(not brd)}
+Adding new Resolvent: {w,hf}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch),w,(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brd),hf}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {w}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {w,hf}
+Adding new Resolvent: {(not brd),hf}
+Adding new Resolvent: {w}
+Adding new Resolvent: {w,(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),w,hf}
+Adding new Resolvent: {(not brd),(not brch),hf}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brd),w}
+Adding new Resolvent: {(not brch),w,(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf,w}
+Adding new Resolvent: {(not brch),hf,(not hf)}
+Adding new Resolvent: {brd,hf}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),hf,w}
+Adding new Resolvent: {(not brch),hf,brd}
+Adding new Resolvent: {(not brch),hf,(not w)}
+Adding new Resolvent: {(not brch),brd}
+Adding new Resolvent: {(not brch),hf,(not hf)}
+Adding new Resolvent: {(not brch),hf,w}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),hf,w}
+Adding new Resolvent: {(not brch),hf,w}
+Adding new Resolvent: {(not brd),(not brch),w}
+Adding new Resolvent: {(not brch),(not hf),hf}
+Adding new Resolvent: {(not brd),(not brch),(not w)}
+Adding new Resolvent: {(not brch),(not hf)}
+Adding new Resolvent: {(not brd),(not hf)}
+Adding new Resolvent: {(not brd),(not brch),w}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),(not hf),(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch),w}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),(not hf),hf}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch),(not hf)}
+Adding new Resolvent: {brd}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch),brd}
+Adding new Resolvent: {(not brch),(not w)}
+Adding new Resolvent: {(not brch),(not hf)}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch),(not hf)}
+Adding new Resolvent: {(not brd),w}
+Adding new Resolvent: {brd,hf}
+Adding new Resolvent: {(not brd),(not hf),(not brch)}
+Adding new Resolvent: {brd}
+Adding new Resolvent: {(not brd),hf}
+Adding new Resolvent: {(not brd),(not brch),w}
+Adding new Resolvent: {brd,(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch),(not w)}
+Adding new Resolvent: {(not brd),(not hf)}
+Adding new Resolvent: {(not brd),w,(not brch)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch),hf}
+Adding new Resolvent: {(not brd),w}
+Adding new Resolvent: {(not brd),(not brch),w}
+Adding new Resolvent: {brd,(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch),(not hf)}
+Adding new Resolvent: {brd,(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brd),hf}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brch),w,hf}
+Adding new Resolvent: {(not brd),(not brch),hf}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brd),w}
+Adding new Resolvent: {(not brch),w,(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),w,hf}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch),w,(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brd),hf}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brch),(not w),(not brd)}
+Adding new Resolvent: {(not w),hf}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),(not w)}
+Adding new Resolvent: {(not brch),(not w),(not brd)}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brch),(not w),(not brd)}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not w)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brd),hf}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not w),hf}
+Adding new Resolvent: {(not w)}
+Adding new Resolvent: {(not brd),hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not w),(not brd),(not brch)}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not w),(not brch),hf}
+Adding new Resolvent: {(not w),(not brch)}
+Adding new Resolvent: {(not w),(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brd),hf}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),hf,(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not brd),hf}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not w),hf}
+Adding new Resolvent: {(not brch),(not w)}
+Adding new Resolvent: {(not w),(not brd)}
+Adding new Resolvent: {(not brch),(not brd),hf}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not w),(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not brd),hf}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not w),hf}
+Adding new Resolvent: {(not brch),(not w)}
+Adding new Resolvent: {(not brch),(not w),(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not brd),(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {w}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch),(not hf)}
+Adding new Resolvent: {brd}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch),brd}
+Adding new Resolvent: {(not brch),(not w)}
+Adding new Resolvent: {(not brch),(not hf)}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch),(not hf)}
+Adding new Resolvent: {(not brch),brd}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),w}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),(not w)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),(not w)}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not w)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),hf}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch),(not brd)}
+Adding new Resolvent: {(not brch)}
+Adding new Resolvent: {w}
+Adding new Resolvent: {brd}
+Adding new Resolvent: {(not w)}
+Adding new Resolvent: {w}
+WE HAVE RESOLVED OUR PROOF
+
+Example.txt
+
+Formula is: (cond p q )
+Formula is: (cond q r )
+Formula is: (not r )
+Formula is: (not p )
+Printing Master Clause list:
+{(not p),q}
+{(not q),r}
+{(not r)}
+{p}
+Adding new Resolvent: {r,(not p)}
+Adding new Resolvent: {(not q)}
+Adding new Resolvent: {q}
+Adding new Resolvent: {(not p)}
+Adding new Resolvent: {r}
+Adding new Resolvent: {(not p)}
+Adding new Resolvent: {r}
+WE HAVE RESOLVED OUR PROOF
+
+
+Summer.txt
+
+Formula is: (cond Summer Warm )
+Formula is: (cond Rain (and (not Sun )(not Warm )))
+Formula is: (cond Sun Summer )
+Formula is: (cond Warm (or Flowers IceCream ))
+Formula is: (IceCream)
+Formula is: (not Flowers )
+Formula is: (Sun)
+Formula is: (Summer)
+Printing Master Clause list:
+{(not Summer),Warm}
+{(not Rain),(not Sun)}
+{(not Rain),(not Warm)}
+{(not Sun),Summer}
+{(not Warm),Flowers,IceCream}
+{IceCream}
+{(not Flowers)}
+{Sun}
+{(not Summer)}
+Adding new Resolvent: {(not Rain),(not Summer)}
+Adding new Resolvent: {(not Sun),Warm}
+Adding new Resolvent: {Flowers,IceCream,(not Summer)}
+Adding new Resolvent: {(not Warm),IceCream}
+Adding new Resolvent: {(not Rain)}
+Adding new Resolvent: {Summer}
+Adding new Resolvent: {(not Sun)}
+Adding new Resolvent: {(not Rain),(not Sun)}
+Adding new Resolvent: {(not Sun),(not Rain)}
+Adding new Resolvent: {(not Sun),Flowers,IceCream}
+Adding new Resolvent: {Warm}
+Adding new Resolvent: {Flowers,IceCream,(not Sun)}
+Adding new Resolvent: {IceCream,(not Summer)}
+Adding new Resolvent: {IceCream,(not Summer)}
+Adding new Resolvent: {IceCream,(not Sun)}
+Adding new Resolvent: {Warm}
+WE HAVE RESOLVED OUR PROOF
+
+Work.txt
+
+Formula is: (cond Weekend (and Sleep Fun ))
+Formula is: (cond Week (or (and Work (not Sleep ))(and (not Work )Sleep )))
+Formula is: (cond Sleep Healthy )
+Formula is: (not Weekend )
+Formula is: (cond (and (not Weekend )Work )(not Sleep ))
+Formula is: (not Healthy )
+Formula is: (not Fun )
+Formula is: (not Sleep )
+Printing Master Clause list:
+{(not Weekend),Sleep}
+{(not Weekend),Fun}
+{(not Week),Work,(not Work)}
+{(not Week),Work,Sleep}
+{(not Week),(not Sleep),(not Work)}
+{(not Week),(not Sleep),Sleep}
+{(not Sleep),Healthy}
+{(not Weekend)}
+{Weekend,(not Work),(not Sleep)}
+{(not Healthy)}
+{(not Fun)}
+{Sleep}
+Adding new Resolvent: {(not Week),Sleep,Work}
+Adding new Resolvent: {(not Week),(not Work),(not Weekend)}
+Adding new Resolvent: {(not Week),(not Sleep),(not Work)}
+Adding new Resolvent: {(not Week),(not Work),Work}
+Adding new Resolvent: {(not Week),Sleep,(not Weekend)}
+Adding new Resolvent: {(not Week),Sleep,Work}
+Adding new Resolvent: {(not Week),(not Sleep),(not Work)}
+Adding new Resolvent: {Healthy,(not Weekend)}
+Adding new Resolvent: {Healthy,(not Week),Work}
+Adding new Resolvent: {Healthy,(not Week),(not Sleep)}
+Adding new Resolvent: {(not Work),(not Sleep),Sleep}
+Adding new Resolvent: {(not Work),(not Sleep),Fun}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),(not Work)}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),Sleep}
+Adding new Resolvent: {Weekend,(not Work),(not Week),(not Sleep)}
+Adding new Resolvent: {(not Work),(not Sleep)}
+Adding new Resolvent: {(not Sleep)}
+Adding new Resolvent: {(not Weekend)}
+Adding new Resolvent: {(not Week),(not Work)}
+Adding new Resolvent: {(not Week),Sleep}
+Adding new Resolvent: {Healthy}
+Adding new Resolvent: {Weekend,(not Work)}
+Adding new Resolvent: {(not Week),Sleep,Work}
+Adding new Resolvent: {(not Week),Work,(not Work)}
+Adding new Resolvent: {(not Week),Work,Sleep}
+Adding new Resolvent: {(not Week),Work,Healthy}
+Adding new Resolvent: {(not Week),Work,Weekend,(not Work)}
+Adding new Resolvent: {(not Week),(not Weekend),(not Work)}
+Adding new Resolvent: {(not Week),(not Weekend),Sleep}
+Adding new Resolvent: {(not Week),(not Work),(not Sleep)}
+Adding new Resolvent: {(not Week),(not Weekend),Sleep}
+Adding new Resolvent: {(not Week),(not Work),(not Weekend)}
+Adding new Resolvent: {(not Week),(not Sleep),(not Work)}
+Adding new Resolvent: {(not Week),(not Work),Work}
+Adding new Resolvent: {(not Week),(not Work),(not Sleep)}
+Adding new Resolvent: {(not Week),(not Work)}
+Adding new Resolvent: {(not Week),(not Work),Work}
+Adding new Resolvent: {(not Week),Work,(not Work)}
+Adding new Resolvent: {(not Week),Work,Sleep}
+Adding new Resolvent: {(not Week),(not Work),(not Sleep)}
+Adding new Resolvent: {(not Week),(not Work),Weekend,(not Sleep)}
+Adding new Resolvent: {(not Week),Work,Sleep}
+Adding new Resolvent: {(not Week),(not Work),(not Weekend)}
+Adding new Resolvent: {(not Week),(not Work),(not Sleep)}
+Adding new Resolvent: {(not Week),(not Weekend),(not Work)}
+Adding new Resolvent: {(not Week),(not Weekend),Sleep}
+Adding new Resolvent: {(not Week),(not Weekend),Healthy}
+Adding new Resolvent: {(not Week),(not Weekend),Weekend,(not Work)}
+Adding new Resolvent: {(not Week),(not Weekend),(not Work)}
+Adding new Resolvent: {(not Week),Sleep,Work}
+Adding new Resolvent: {(not Week),Work,(not Work)}
+Adding new Resolvent: {(not Week),Work,Sleep}
+Adding new Resolvent: {(not Week),Work,Healthy}
+Adding new Resolvent: {(not Week),Work,Weekend,(not Work)}
+Adding new Resolvent: {(not Week),Sleep,(not Weekend)}
+Adding new Resolvent: {(not Week),Work,(not Work)}
+Adding new Resolvent: {(not Week),Sleep,Work}
+Adding new Resolvent: {(not Week),(not Work),(not Weekend)}
+Adding new Resolvent: {(not Week),(not Sleep),(not Work)}
+Adding new Resolvent: {(not Week),(not Work),Work}
+Adding new Resolvent: {(not Week),(not Work),(not Sleep)}
+Adding new Resolvent: {(not Week),(not Work)}
+Adding new Resolvent: {(not Week),(not Work),Work}
+Adding new Resolvent: {(not Week),(not Sleep),(not Work)}
+Adding new Resolvent: {(not Week),(not Work),(not Weekend)}
+Adding new Resolvent: {(not Week),(not Work),Work}
+Adding new Resolvent: {Healthy,(not Work),(not Sleep)}
+Adding new Resolvent: {(not Weekend)}
+Adding new Resolvent: {Healthy,(not Week),Work}
+Adding new Resolvent: {Healthy,(not Week),(not Sleep)}
+Adding new Resolvent: {Healthy,(not Week),Weekend,(not Sleep)}
+Adding new Resolvent: {(not Week),Work}
+Adding new Resolvent: {Healthy,(not Week),(not Weekend)}
+Adding new Resolvent: {Healthy,(not Week),(not Sleep)}
+Adding new Resolvent: {Healthy,(not Week),Work}
+Adding new Resolvent: {Healthy,(not Week),(not Sleep)}
+Adding new Resolvent: {Healthy,(not Week),(not Weekend)}
+Adding new Resolvent: {Healthy,(not Week),Work}
+Adding new Resolvent: {Healthy,(not Week),(not Sleep)}
+Adding new Resolvent: {(not Week),(not Sleep)}
+Adding new Resolvent: {Healthy,(not Week)}
+Adding new Resolvent: {Healthy,(not Week),Work}
+Adding new Resolvent: {Healthy,(not Week),(not Weekend)}
+Adding new Resolvent: {Healthy,(not Week),Work}
+Adding new Resolvent: {(not Work),Sleep,(not Weekend)}
+Adding new Resolvent: {(not Sleep),Sleep,(not Week),(not Work)}
+Adding new Resolvent: {(not Sleep),Sleep,(not Week)}
+Adding new Resolvent: {(not Work),(not Sleep),(not Week)}
+Adding new Resolvent: {(not Work),Sleep,(not Week),(not Sleep)}
+Adding new Resolvent: {(not Work),(not Sleep),Healthy}
+Adding new Resolvent: {(not Work),(not Sleep),Weekend}
+Adding new Resolvent: {(not Work),Sleep}
+Adding new Resolvent: {(not Sleep),Sleep,(not Week)}
+Adding new Resolvent: {(not Work),(not Sleep),(not Week)}
+Adding new Resolvent: {(not Sleep),Sleep,(not Week),(not Work)}
+Adding new Resolvent: {(not Work),Sleep,(not Week),(not Weekend)}
+Adding new Resolvent: {(not Sleep),Sleep,(not Week)}
+Adding new Resolvent: {(not Work),(not Sleep),(not Week)}
+Adding new Resolvent: {(not Sleep),Sleep,Healthy,(not Week)}
+Adding new Resolvent: {(not Work),(not Sleep),Healthy,(not Week)}
+Adding new Resolvent: {(not Work),Fun,(not Weekend)}
+Adding new Resolvent: {(not Sleep),Fun,(not Week),(not Work)}
+Adding new Resolvent: {(not Sleep),Fun,(not Week),Sleep}
+Adding new Resolvent: {(not Work),Fun,(not Week),(not Sleep)}
+Adding new Resolvent: {(not Work),(not Sleep)}
+Adding new Resolvent: {(not Work),Fun}
+Adding new Resolvent: {(not Sleep),Fun,(not Week),Sleep}
+Adding new Resolvent: {(not Sleep),Fun,(not Week),(not Work)}
+Adding new Resolvent: {(not Work),Fun,(not Week),(not Weekend)}
+Adding new Resolvent: {(not Sleep),Fun,(not Week),Sleep}
+Adding new Resolvent: {(not Sleep),Fun,Healthy,(not Week)}
+Adding new Resolvent: {(not Work),Fun,(not Sleep)}
+Adding new Resolvent: {(not Sleep),(not Week),(not Work),Sleep}
+Adding new Resolvent: {(not Sleep),(not Week),(not Work),Fun}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),(not Work)}
+Adding new Resolvent: {Weekend,(not Week),(not Work),Work}
+Adding new Resolvent: {Weekend,(not Week),(not Work),(not Sleep)}
+Adding new Resolvent: {(not Sleep),(not Week),(not Work)}
+Adding new Resolvent: {Weekend,(not Week),(not Work)}
+Adding new Resolvent: {Weekend,(not Week),(not Work),Work}
+Adding new Resolvent: {(not Sleep),(not Week),(not Work)}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),(not Work)}
+Adding new Resolvent: {(not Sleep),(not Week),(not Work),Sleep}
+Adding new Resolvent: {Weekend,(not Week),(not Work),Work}
+Adding new Resolvent: {(not Sleep),(not Week),(not Work),Healthy}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),Healthy}
+Adding new Resolvent: {Weekend,(not Week),(not Work),(not Sleep)}
+Adding new Resolvent: {(not Sleep),(not Week),Sleep}
+Adding new Resolvent: {(not Sleep),(not Week),Sleep,Fun}
+Adding new Resolvent: {Weekend,(not Week),Sleep,Work}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),(not Work)}
+Adding new Resolvent: {Weekend,(not Week),Sleep,(not Sleep)}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),Healthy}
+Adding new Resolvent: {(not Sleep),(not Week),Sleep}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),(not Work)}
+Adding new Resolvent: {Weekend,(not Week),Sleep}
+Adding new Resolvent: {Weekend,(not Week),Sleep,Work}
+Adding new Resolvent: {(not Sleep),(not Week),Sleep,(not Work)}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),(not Work)}
+Adding new Resolvent: {(not Sleep),(not Week),Sleep}
+Adding new Resolvent: {Weekend,(not Week),Sleep,Work}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),(not Work)}
+Adding new Resolvent: {(not Sleep),(not Week),Sleep,Healthy}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),Healthy}
+Adding new Resolvent: {Weekend,(not Week),Sleep,(not Work),(not Sleep)}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),(not Work),Fun}
+Adding new Resolvent: {Weekend,(not Sleep),(not Week),(not Work)}
+Adding new Resolvent: {(not Work),(not Week),(not Sleep),Sleep}
+Adding new Resolvent: {(not Work),(not Week),(not Sleep),Fun}
+Adding new Resolvent: {Weekend,(not Week),(not Sleep),(not Work)}
+Adding new Resolvent: {Weekend,(not Week),(not Sleep),Sleep}
+Adding new Resolvent: {Weekend,(not Work),(not Week),(not Sleep)}
+Adding new Resolvent: {(not Work),(not Week),(not Sleep)}
+Adding new Resolvent: {Weekend,(not Work),(not Week)}
+Adding new Resolvent: {Weekend,(not Week),(not Sleep),Sleep}
+Adding new Resolvent: {(not Work),(not Week),(not Sleep)}
+Adding new Resolvent: {Weekend,(not Week),(not Sleep),(not Work)}
+Adding new Resolvent: {(not Work),(not Week),(not Sleep),Sleep}
+Adding new Resolvent: {Weekend,(not Week),(not Sleep),Sleep}
+Adding new Resolvent: {(not Work),(not Week),(not Sleep),Healthy}
+Adding new Resolvent: {Weekend,(not Week),(not Sleep),Healthy}
+Adding new Resolvent: {Weekend,(not Work),(not Week),(not Sleep)}
+Adding new Resolvent: {Weekend,(not Work),(not Week),(not Sleep)}
+Adding new Resolvent: {(not Work),(not Weekend)}
+Adding new Resolvent: {(not Sleep),(not Week),(not Work)}
+Adding new Resolvent: {(not Sleep),(not Week),Sleep}
+Adding new Resolvent: {(not Work),(not Week),(not Sleep)}
+Adding new Resolvent: {(not Work)}
+Adding new Resolvent: {(not Sleep),(not Week),Sleep}
+Adding new Resolvent: {(not Sleep),(not Week),(not Work)}
+Adding new Resolvent: {(not Work),(not Week),(not Weekend)}
+Adding new Resolvent: {(not Sleep),(not Week),Sleep}
+Adding new Resolvent: {(not Sleep),Healthy,(not Week)}
+Adding new Resolvent: {(not Work),(not Sleep)}
+Adding new Resolvent: {(not Work),Weekend,(not Sleep),(not Week)}
+Adding new Resolvent: {(not Weekend)}
+Adding new Resolvent: {(not Week),Work}
+Adding new Resolvent: {(not Week),(not Sleep)}
+WE HAVE RESOLVED OUR PROOF

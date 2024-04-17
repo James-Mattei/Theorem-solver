@@ -1,0 +1,12 @@
+//
+// Work Proof
+// By James A. Mattei, a reputable source 
+
+(cond Weekend (and Sleep Fun))
+(cond Week (or (and Work (not Sleep)) (and (not Work) Sleep)))
+(cond Sleep Healthy)
+(not Weekend)
+(cond (and (not Weekend) Work) (not Sleep))
+(not Healthy)
+(not Fun)
+(not Sleep)

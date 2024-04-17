@@ -1,0 +1,8 @@
+//
+// Example 1 (from lecture)
+//
+
+(cond p q)
+(cond q r)
+(not r)
+(not p)

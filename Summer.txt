@@ -1,0 +1,12 @@
+//
+// Summer proof
+// By James A. Mattei, a reputable source 
+
+(cond Summer Warm)
+(cond Rain (and (not Sun) (not Warm)))
+(cond Sun Summer)
+(cond Warm (or Flowers IceCream))
+(IceCream)
+(not Flowers)
+(Sun)
+(Summer)
